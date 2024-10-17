@@ -12,18 +12,17 @@ The main objectives of the project are-
 
                                        Tasks
 The project tasks include-
-**Data Loading and Preparation:**
+                                     Data Loading and Preparation
 1. Import the dataset into Power BI and review data integrity.
 2. Ensure that all columns are properly formatted (e.g., dates are formatted correctly, numerical fields such as "Sales" and "Unit Price" are usable for analysis)
-**Data Cleaning:**
+                                     Data Cleaning
 1. Handle missing or incomplete data (e.g., missing values in the "State" field where it says "No information").
 2. Filter out irrelevant data and remove duplicates if any.
 3. Change data type, rename columns, replace values, reorder columns, sort rows
-**Data Transformation:**
+                                     Data Transformation
 1. Create calculated columns such as total sales per year or profit if needed.
 2. Format "Order Date" and "Delivery Date" fields to proper date format for date-based analysis.
-Visualizations:
-**Create charts for key insights:**
+                                     Data Visualizations
 1. Sales by Country: A bar chart to display the Count of sales orders per country.
 2. Sales vs Esales: A comparison of actual sales and estimated sales
 3. For each order use a clustered bar chart.
@@ -35,7 +34,7 @@ Visualizations:
                                       Dashboard  & Report Creation
 ![Vechiles Data](https://github.com/user-attachments/assets/6253d7e4-e828-4da8-8d7e-0d9d2aeed739)
 
-We can create a dashboard element where all of this information is summarized on one page. Combine all visualizations into a cohesive dashboard that allows users to interact with the data through filters and slicers (e.g., by year).
+We can create a dashboard element where all of this information is summarized on one page. Combine all visualizations into a cohesive dashboard that allows users to interact with the data through filters and slicers (e.g., by year).<br>
 In this vehicle's dataset report using Power BI, you aim to create an interactive experience where clicking on any company will reveal detailed information about the company, its location, sales data, product information, and more. Here's how you can approach and explain the features of this report in detail:
 
                                       Interactive Report Features
