@@ -14,55 +14,56 @@ The main objectives of the project are-
 The project tasks include-
                                      Data Loading and Preparation
                                      
-1. Import the dataset into Power BI and review data integrity.
-2. Ensure that all columns are properly formatted (e.g., dates are formatted correctly, numerical fields such as "Sales" and "Unit Price" are usable for analysis)
+* Import the dataset into Power BI and review data integrity.
+* Ensure that all columns are properly formatted (e.g., dates are formatted correctly, and numerical fields such as "Sales" and "Unit Price" are usable for analysis)
    
                                      Data Cleaning
    
-1. Handle missing or incomplete data (e.g., missing values in the "State" field where it says "No information").
-2. Filter out irrelevant data and remove duplicates if any.
-3. Change data type, rename columns, replace values, reorder columns, sort rows
+* Handle missing or incomplete data (e.g., missing values in the "State" field where it says "No information").
+* Filter out irrelevant data and remove duplicates if any.
+* Change data type, rename columns, replace values, reorder columns, sort rows
    
                                      Data Transformation
    
-1. Create calculated columns such as total sales per year or profit if needed.
-2. Format "Order Date" and "Delivery Date" fields to proper date format for date-based analysis.
+* Create calculated columns such as total sales per year or profit if needed.
+* Format "Order Date" and "Delivery Date" fields to proper date format for date-based analysis.
    
                                      Data Visualizations
    
-1. Sales by Country: A bar chart to display the Count of sales orders per country.
-2. Sales vs Esales: A comparison of actual sales and estimated sales
-3. For each order use a clustered bar chart.
-4. Deal Size: A pie chart to show the sum of order numbers by deal size.
-5. Product Line Analysis: A stacked column chart to show the contribution of each product line to the Count of sales orders.
-7. Sales Over Time: A line chart showing sales trends over the years.
-8. Order Status Breakdown: A stacked column chart to visualize the different territories performing (sales, territories, etc.)
+* Sales by Country: A bar chart to display the Count of sales orders per country.
+* Sales vs Esales: A comparison of actual sales and estimated sales
+* For each order use a clustered bar chart.
+* Deal Size: A pie chart to show the sum of order numbers by deal size.
+* Product Line Analysis: A stacked column chart to show the contribution of each product line to the Count of sales orders.
+* Sales Over Time: A line chart showing sales trends over the years.
+* Order Status Breakdown: A stacked column chart to visualize the different territories performing (sales, territories, etc.)
 
                                       Dashboard  & Report Creation
 ![Vechiles Data](https://github.com/user-attachments/assets/6253d7e4-e828-4da8-8d7e-0d9d2aeed739)
 
-We can create a dashboard element where all of this information is summarized on one page. Combine all visualizations into a cohesive dashboard that allows users to interact with the data through filters and slicers (e.g., by year).<br>
+We can create a dashboard element where all of this information is summarized on one page. Combine all visualizations into a cohesive dashboard that allows users to interact with the data through filters and slicers (e.g., by year).
+
 In this vehicle's dataset report using Power BI, you aim to create an interactive experience where clicking on any company will reveal detailed information about the company, its location, sales data, product information, and more. Here's how you can approach and explain the features of this report in detail:
 
                                       Interactive Report Features
 01. Company-Level Details:
-Click on Any Company: By selecting a company from the dataset (using a slicer or clickable visual element such as a table or chart), Power BI will automatically display complete details about that company.
-Location: Country, state, city, territory, and full address (e.g., "C/Moralzarzal/86, Madrid, Spain").
-Owner Name: First and last name of the owner (e.g., "Diego Freyre").
-Phone Number: Contact information for the company.
-Postal Code: ZIP code of the company’s location.
+* Click on Any Company: By selecting a company from the dataset (using a slicer or clickable visual element such as a table or chart), Power BI will automatically display complete details about that company.
+* Location: Country, state, city, territory, and full address (e.g., "C/Moralzarzal/86, Madrid, Spain").
+* Owner Name: First and last name of the owner (e.g., "Diego Freyre").
+* Phone Number: Contact information for the company.
+* Postal Code: ZIP code of the company’s location.
 
 02. Order and Delivery Tracking:
-Order Date & Delivery Date: Power BI will show when a vehicle was ordered and when it was delivered for each specific company, allowing you to track the efficiency of orders and shipments.
-Order and Delivery Timeline: A visual timeline could be included to show how long the delivery process takes for each company.
+* Order Date & Delivery Date: Power BI will show when a vehicle was ordered and when it was delivered for each specific company, allowing you to track the efficiency of orders and shipments.
+* Order and Delivery Timeline: A visual timeline could be included to show how long the delivery process takes for each company.
 
 03. Sales and Pricing Information:
-Total Sales and Estimated Sales (Esales): You can see the exact sales figures alongside estimated sales for that company. This helps in understanding if actual sales match or deviate from forecasts.
-Unit Price: The price per unit sold.
-Retail Price: The listed retail price of the product, allows you to compare it to the unit price to see if there are any discounts or price markups.
+* Total Sales and Estimated Sales (Esales): You can see the exact sales figures alongside estimated sales for that company. This helps in understanding if actual sales match or deviate from forecasts.
+* Unit Price: The price per unit sold.
+* Retail Price: The listed retail price of the product, allows you to compare it to the unit price to see if there are any discounts or price markups.
 
 04. Product and Deal Information:
-Product Details: You can view the products purchased from the company:
+* Product Details: You can view the products purchased from the company:
 Most Purchased Product: Using a pie chart or bar chart, you can see which product has the highest number of sales or sales value.
 Product Line: Whether the company is dealing in "Classic Cars" or any other product category.
 Deal Size: Indicate whether the deal was classified as "Medium" or any other category (small, large).
