@@ -12,10 +12,10 @@ The main objectives of the project are-
 
                                        Tasks
 The project tasks include-
-                                     Data Loading and Preparation
+                                     Data Loading and Preparation<br>
 1. Import the dataset into Power BI and review data integrity.
 2. Ensure that all columns are properly formatted (e.g., dates are formatted correctly, numerical fields such as "Sales" and "Unit Price" are usable for analysis)
-                                     Data Cleaning
+                                     Data Cleaning<br>
 1. Handle missing or incomplete data (e.g., missing values in the "State" field where it says "No information").
 2. Filter out irrelevant data and remove duplicates if any.
 3. Change data type, rename columns, replace values, reorder columns, sort rows
