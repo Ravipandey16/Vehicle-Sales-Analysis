@@ -1,15 +1,16 @@
-**Introduction:**
+                                     **Introduction to the Vehicle Data Analysis**
 The project focuses on analyzing a dataset of vehicle sales and orders to generate meaningful insights for business performance evaluation. This dataset contains detailed information about orders such as order numbers, product details, pricing, sales data, customer information, and shipping details across different regions.
 The goal of this project is to leverage Power BI's data visualization capabilities to understand the trends in vehicle sales, customer behaviors, and product performance by creating an interactive dashboard.
 
-**Objective:**
+                                     **Objective:**
 The main objectives of the project are-
 1. Sales Analysis: Analyze sales data based on various factors such as country, product line, deal size, and year.
 2. Order Performance: Understand the relationship between sales, and estimated sales (Esales).
 3. Product Insights: Identify which product lines contribute most to the overall sales.
 4. Geographical Analysis: Examine sales distribution across different countries and territories (EMEA).
 5. Business Decision Support: Provide insights that can aid business decisions regarding product focus, pricing strategies, and market expansion.
-**Tasks:**
+
+                                       **Tasks:**
 The project tasks include-
 **Data Loading and Preparation:**
 1. Import the dataset into Power BI and review data integrity.
@@ -31,7 +32,7 @@ Visualizations:
 7. Sales Over Time: A line chart showing sales trends over the years.
 8. Order Status Breakdown: A stacked column chart to visualize the different territories performing (sales, territories, etc.)
 
-**Dashboard  & Report Creation:**
+                                      **Dashboard  & Report Creation:**
 ![Vechiles Data](https://github.com/user-attachments/assets/6253d7e4-e828-4da8-8d7e-0d9d2aeed739)
 
 We can create a dashboard element where all of this information is summarized on one page. Combine all visualizations into a cohesive dashboard that allows users to interact with the data through filters and slicers (e.g., by year).
