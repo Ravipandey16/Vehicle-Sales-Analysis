@@ -38,36 +38,33 @@ Visualizations:
 We can create a dashboard element where all of this information is summarized on one page. Combine all visualizations into a cohesive dashboard that allows users to interact with the data through filters and slicers (e.g., by year).
 In this vehicle's dataset report using Power BI, you aim to create an interactive experience where clicking on any company will reveal detailed information about the company, its location, sales data, product information, and more. Here's how you can approach and explain the features of this report in detail:
 
-**Interactive Report Features**
-**Company-Level Details:**
-**Click on Any Company:** By selecting a company from the dataset (using a slicer or clickable visual element such as a table or chart), Power BI will automatically display complete details about that company.
-
-**Company Details Displayed:**
+                                      Interactive Report Features
+01. Company-Level Details:
+Click on Any Company: By selecting a company from the dataset (using a slicer or clickable visual element such as a table or chart), Power BI will automatically display complete details about that company.
 Location: Country, state, city, territory, and full address (e.g., "C/Moralzarzal/86, Madrid, Spain").
 Owner Name: First and last name of the owner (e.g., "Diego Freyre").
 Phone Number: Contact information for the company.
 Postal Code: ZIP code of the company’s location.
 
-**2. Order and Delivery Tracking:**
+02. Order and Delivery Tracking:
 Order Date & Delivery Date: Power BI will show when a vehicle was ordered and when it was delivered for each specific company, allowing you to track the efficiency of orders and shipments.
 Order and Delivery Timeline: A visual timeline could be included to show how long the delivery process takes for each company.
 
-**3. Sales and Pricing Information:**
-Sales Data:
+03. Sales and Pricing Information:
 Total Sales and Estimated Sales (Esales): You can see the exact sales figures alongside estimated sales for that company. This helps in understanding if actual sales match or deviate from forecasts.
 Unit Price: The price per unit sold.
 Retail Price: The listed retail price of the product, allows you to compare it to the unit price to see if there are any discounts or price markups.
 
-**4. Product and Deal Information:**
+04. Product and Deal Information:
 Product Details: You can view the products purchased from the company:
 Most Purchased Product: Using a pie chart or bar chart, you can see which product has the highest number of sales or sales value.
 Product Line: Whether the company is dealing in "Classic Cars" or any other product category.
 Deal Size: Indicate whether the deal was classified as "Medium" or any other category (small, large).
 
-**5. Location Visualization:**
+05. Location Visualization:
 Map Integration: You can integrate Power BI's map visualization feature to automatically display the location of the selected company. When you click on a company, the location is shown on a map based on its city, state, and country. This helps in quickly visualizing where the company is located in the world.
 
-**6. Product Sales by Size:**
+06. Product Sales by Size:
 Deal Size Breakdown: You can create a chart to show sales by deal size, such as medium, small, or large. This will help identify which deal sizes are generating the most revenue.
 
 **7. Filtering by Products or Territories:**
