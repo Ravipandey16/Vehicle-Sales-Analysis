@@ -12,17 +12,24 @@ The main objectives of the project are-
 
                                        Tasks
 The project tasks include-
-                                     Data Loading and Preparation<br>
+                                     Data Loading and Preparation
+                                     
 1. Import the dataset into Power BI and review data integrity.
 2. Ensure that all columns are properly formatted (e.g., dates are formatted correctly, numerical fields such as "Sales" and "Unit Price" are usable for analysis)
-                                     Data Cleaning<br>
+   
+                                     Data Cleaning
+   
 1. Handle missing or incomplete data (e.g., missing values in the "State" field where it says "No information").
 2. Filter out irrelevant data and remove duplicates if any.
 3. Change data type, rename columns, replace values, reorder columns, sort rows
+   
                                      Data Transformation
+   
 1. Create calculated columns such as total sales per year or profit if needed.
 2. Format "Order Date" and "Delivery Date" fields to proper date format for date-based analysis.
+   
                                      Data Visualizations
+   
 1. Sales by Country: A bar chart to display the Count of sales orders per country.
 2. Sales vs Esales: A comparison of actual sales and estimated sales
 3. For each order use a clustered bar chart.
