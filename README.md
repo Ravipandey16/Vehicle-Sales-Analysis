@@ -65,7 +65,7 @@ In this vehicle's dataset report using Power BI, you aim to create an interactiv
 04. Product and Deal Information:
 * Product Details: You can view the products purchased from the company:
 Most Purchased Product: Using a pie chart or bar chart, you can see which product has the highest number of sales or sales value.
-Product Line: Whether the company is dealing in "Classic Cars" or any other product category.
+Product Line: Whether the company deals with "Classic Cars" or any other product category.
 Deal Size: Indicate whether the deal was classified as "Medium" or any other category (small, large).
 
 05. Location Visualization:
@@ -74,29 +74,29 @@ Map Integration: You can integrate Power BI's map visualization feature to autom
 06. Product Sales by Size:
 Deal Size Breakdown: You can create a chart to show sales by deal size, such as medium, small, or large. This will help identify which deal sizes are generating the most revenue.
 
-**7. Filtering by Products or Territories:**
+07. Filtering by Products or Territories:
 You can filter the report by specific product lines (e.g., "Classic Cars") or territories (e.g., EMEA), which will automatically update all the related visuals like sales, order dates, delivery timelines, and product information.
 
 ![Vechile Data - Report](https://github.com/user-attachments/assets/0c10a1e2-4771-4e65-9df5-1f06a23f4782)
 
-**4. Outcomes**
+                                        Outcomes
 The outcomes of the project include:
 Comprehensive Sales Insights: Visualized sales trends across countries, product lines, and years, enabling stakeholders to see which regions and products are performing well.
 Performance Comparison: A clear comparison between sales and estimated sales (Esales), helps the company adjust forecasting models and pricing strategies.
  Delivery Efficiency: Insights into the delivery timelines by comparing orders and delivery dates to help the logistics team improve delivery efficiency.
 Customer Behavior: An analysis of customer purchasing patterns across different regions and product lines.
 
-**5. Challenges**
+                                        Challenges
 Some challenges encountered during the project:
 Missing Data: Certain columns like "State" had missing information. The dataset had "No Information" in many state fields, which required thoughtful handling without affecting analysis accuracy.
 Date Format Issues: "Order Date" and "Delivery Date" were initially in non-standard formats, requiring transformation into a proper date format for time-series analysis.
 Data Consistency: Ensuring consistency in data types, particularly for numerical columns such as "Unit Price", "Sales", and "Esales".
 
-**6. Final Report**
+                                         Final Report
 The final report consists of:
 A Power BI Dashboard with key visualizations such as:
-Sales by Country
-Sales vs Esales
+* Sales by Country
+* Sales vs Esales
 Product Line Analysis
 Order Status Overview
 Sales by year
@@ -108,7 +108,7 @@ Focus on countries or regions with the highest sales potential for future market
 Improve delivery logistics to reduce delays.
 Review pricing strategies for underperforming product lines
 
-**Conclusion**
+                                      Conclusion
 This interactive report allows stakeholders to:
 Access detailed company information in one click.
 Visualize sales data, product purchases, and delivery performance in a structured format.
