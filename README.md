@@ -82,14 +82,20 @@ You can filter the report by specific product lines (e.g., "Classic Cars") or te
                                         Outcomes
 The outcomes of the project include:
 Comprehensive Sales Insights: Visualized sales trends across countries, product lines, and years, enabling stakeholders to see which regions and products are performing well.
+
 Performance Comparison: A clear comparison between sales and estimated sales (Esales), helps the company adjust forecasting models and pricing strategies.
- Delivery Efficiency: Insights into the delivery timelines by comparing orders and delivery dates to help the logistics team improve delivery efficiency.
+
+Delivery Efficiency: Insights into the delivery timelines by comparing orders and delivery dates to help the logistics team improve delivery efficiency.
+
 Customer Behavior: An analysis of customer purchasing patterns across different regions and product lines.
 
                                         Challenges
 Some challenges encountered during the project:
+
 Missing Data: Certain columns like "State" had missing information. The dataset had "No Information" in many state fields, which required thoughtful handling without affecting analysis accuracy.
+
 Date Format Issues: "Order Date" and "Delivery Date" were initially in non-standard formats, requiring transformation into a proper date format for time-series analysis.
+
 Data Consistency: Ensuring consistency in data types, particularly for numerical columns such as "Unit Price", "Sales", and "Esales".
 
                                          Final Report
@@ -97,23 +103,24 @@ The final report consists of:
 A Power BI Dashboard with key visualizations such as:
 * Sales by Country
 * Sales vs Esales
-Product Line Analysis
-Order Status Overview
-Sales by year
-Countries with the highest vehicle sales
-Count of sales orders by product line
-How closely Esales match the actual sales
-Business Recommendations:
-Focus on countries or regions with the highest sales potential for future marketing strategies.
-Improve delivery logistics to reduce delays.
-Review pricing strategies for underperforming product lines
+* Product Line Analysis
+* Order Status Overview
+* Sales by year
+* Countries with the highest vehicle sales
+* Count of sales orders by product line
+* How closely Esales match the actual sales
+* Business Recommendations:
+* Focus on countries or regions with the highest sales potential for future marketing strategies.
+* Improve delivery logistics to reduce delays.
+* Review pricing strategies for underperforming product lines
 
                                       Conclusion
-This interactive report allows stakeholders to:
-Access detailed company information in one click.
-Visualize sales data, product purchases, and delivery performance in a structured format.
-Filter data dynamically to compare different companies, products, and territories.
-Track order-to-delivery timelines to assess efficiency. This comprehensive view will help make strategic decisions on marketing, product development, and logistics management.
+  
+* This interactive report allows stakeholders to:
+* Access detailed company information in one click.
+* Visualize sales data, product purchases, and delivery performance in a structured format.
+* Filter data dynamically to compare different companies, products, and territories.
+* Track order-to-delivery timelines to assess efficiency. This comprehensive view will help make strategic decisions on marketing, product development, and logistics management.
 
 
 
