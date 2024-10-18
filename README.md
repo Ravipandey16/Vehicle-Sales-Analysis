@@ -81,6 +81,7 @@ You can filter the report by specific product lines (e.g., "Classic Cars") or te
 
                                         Outcomes
 The outcomes of the project include:
+
 Comprehensive Sales Insights: Visualized sales trends across countries, product lines, and years, enabling stakeholders to see which regions and products are performing well.
 
 Performance Comparison: A clear comparison between sales and estimated sales (Esales), helps the company adjust forecasting models and pricing strategies.
